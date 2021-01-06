@@ -1,0 +1,2 @@
+
+alert("chào javascript");

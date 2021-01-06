@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .wrap{
+            border: 1px solid red;
+            width: 400px;
+            height: 400px;
+            position: relative;
+            margin: 200px 0  0 200px;
+
+        }
+        .wrap .cell{
+            width: 100px;
+            height: 100px;
+            position: absolute;
+        }
+        .cell1{
+            top: 0;
+            left: 0;
+            background-color: orange;
+        }
+        .cell2{
+            top: 0;
+            left: 100px;
+            background-color: green;
+        }
+        .cell3{
+            top: 0;
+            left: 200px;
+            background-color: orange;
+        }
+        .cell4{
+            top: 0;
+            left: 300px;
+            background-color: green;
+        }
+        .cell5{
+            top: 100px;
+            left: 0px;
+            background-color: green;
+        }
+        .cell6{
+            top: 100px;
+            left: 100px;
+            background-color: orange;
+        }
+        .cell7{
+            top: 100px;
+            left: 200px;
+            background-color: green;
+        }
+        .cell8{
+            top: 100px;
+            left: 300px;
+            background-color: orange;
+        }
+        .cell9{
+            top: 200px;
+            left: 0px;
+            background-color: orange;
+        }
+    </style>
+</head>
+<body>
+<pre>
+    đặt 1 thẻ luôn lấy thẻ mẹ làm gốc tọa độ để dịch chuyển
+    -bàn cờ vua
+    -ô cờ vua có position absolute
+    absolute nằm trong relative thì luôn lấy vị trí thẻ mẹ để làm tọa độ
+</pre>
+<div class="wrap">
+    <div class="cell cell1">
+        cell1
+    </div>
+    <div class="cell cell2">
+        cell2
+    </div>
+    <div class="cell cell3">
+        cell3
+    </div>
+    <div class="cell cell4">
+        cell4
+    </div>
+    <div class="cell cell5">
+        cell5
+    </div>
+    <div class="cell cell6">
+        cell6
+    </div>
+    <div class="cell cell7">
+        cell7
+    </div>
+    <div class="cell cell8">
+        cell8
+    </div>
+    <div class="cell cell9">
+        cell9
+    </div>
+
+</div>
+</body>
+</html>

@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27a371b8-717b-4508-b4e5-7eace5be6ec2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ngay7/001/index1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ngay7/001/index2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngay7/002/index1.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ngay6/004/tiki.html" beforeDir="false" afterPath="$PROJECT_DIR$/ngay6/004/tiki.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +37,11 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/ngay7/001" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\github\sinhvient3h\ngay7\001" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -48,7 +51,7 @@
       <option name="presentableId" value="Default" />
       <updated>1609937696530</updated>
       <workItem from="1609937701482" duration="3809000" />
-      <workItem from="1610523281942" duration="1036000" />
+      <workItem from="1610523281942" duration="1640000" />
     </task>
     <servers />
   </component>

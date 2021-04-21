@@ -1,0 +1,99 @@
+html{
+    font-size: 15px !important;
+}
+.ff{
+    font-family: 'Quicksand';
+}
+.fs-12{
+    font-size: 12px;
+}
+.danh-gia-san__filter{
+    padding: 0 !important;
+    height: 100%;
+    background-color: #f4f4f4;
+    border-right: 1px solid #e2e2e2;
+}
+.danh-gia-san__panel{
+    border-radius: 0 !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    border: 0 !important;
+    margin-top: 0 !important;
+}
+.danh-gia-san__panel--panel-heading-1{
+    background-color: #d9d9d9;
+    font-weight: 700;
+    padding: 15px !important;
+    border-radius: 0 !important;
+}
+.danh-gia-san__panel--panel-body{
+    padding: 0 !important;
+}
+.danh-gia-san__panel--panel-heading-2{
+    background-color: #f4f4f4;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 15px !important;
+}
+.danh-gia-san__panel--panel-heading-3{
+    background-color: #dbdbdb;
+    font-weight: 700;
+    padding: 12px 35px !important;
+    border-radius: 0 !important;
+}
+.danh-gia-san__panel--panel-heading-4{
+    background-color: #dbdbdb;
+    font-weight: 700;
+    border-radius: 0 !important;
+    padding: 15px !important;
+}
+.danh-gia-san__panel--panel-body-1{
+    background-color: #f4f4f4;
+    padding: 15px 35px !important;
+}
+.danh-gia-san__panel--date-input{
+    border-radius: 0 !important;
+    -webkit-box-shadow: none !important;
+    border-right: none !important;
+}
+.danh-gia-san__panel--gr-addon{
+    background-color: #fff !important;
+    border-radius: 0 !important;
+}
+a.danh-gia-san__panel--toggle-panel {
+    color: #414142;
+}
+a.danh-gia-san__panel--toggle-panel:focus, a.danh-gia-san__panel--toggle-panel:hover{
+    color: #414142;
+    text-decoration: none;
+}
+.danh-gia-san__panel--list{
+    list-style-type: none;
+    padding-left: 0;
+}
+.danh-gia-san__panel--list-li{
+    margin-bottom: 10px;
+}
+.danh-gia-san__panel--list--option{
+    color: #4b4e4d;
+    font-weight: 500;
+}
+li.danh-gia-san__panel--list--option{
+    margin-bottom: 15px;
+}
+.danh-gia-san__panel--list--option:hover, .danh-gia-san__panel--list--option:focus{
+    color: #4b4e4d;
+    text-decoration: none;
+}
+.danh-gia-san__panel--icon{
+    margin-right: 7px;
+}
+.danh-gia-san__comment{
+    padding-left: 21px;
+    padding-right: 70px;
+    padding-top: 21px;
+}
+.danh-gia-san__comment--title{
+    font-size: 20px;
+    font-weight: 500;
+}

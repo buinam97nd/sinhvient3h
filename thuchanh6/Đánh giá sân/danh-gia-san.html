@@ -1,0 +1,79 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Đánh giá sân</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="danh-gia-san.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:400,500,700&amp;subset=vietnamese" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="danh-gia-san.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.8.0/js/bootstrap-datepicker.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.8.0/css/datepicker.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div class="col-lg-2 ff danh-gia-san__filter">
+        <div class="panel panel-group danh-gia-san__panel">
+            <div class="panel-heading danh-gia-san__panel--panel-heading-1">Bộ lọc</div>
+            <div class="panel-body danh-gia-san__panel--panel-body">
+                <div class="panel danh-gia-san__panel">
+                    <div class="panel-heading danh-gia-san__panel--panel-heading-2">
+                        <a class="toggle-panel danh-gia-san__panel--toggle-panel" data-toggle="collapse" href="#collapse1"><span><i class="fa fa-minus-square-o" style="font-size: 18px;"></i></span>&ensp;Lọc theo thời gian</a>
+                    </div>
+                    <div id="collapse1" class="panel-collapse collapse in">
+                        <div class="panel-body danh-gia-san__panel--panel-heading-3"><img src="images/calendar.png">&ensp;Trong khoảng</div>
+                        <div class="panel-body danh-gia-san__panel--panel-body-1">
+                            <div class="input-group date" data-provide="datepicker">
+                                <input type="text" name="datetime" class="form-control danh-gia-san__panel--date-input">
+                                <span class="input-group-addon danh-gia-san__panel--gr-addon"><img src="images/blue-calendar.png"></span>                          
+                            </div>
+                            <br>
+                            <div class="input-group date" data-provide="datepicker">
+                                <input type="text" name="datetime" class="form-control danh-gia-san__panel--date-input">
+                                <span class="input-group-addon danh-gia-san__panel--gr-addon"><img src="images/blue-calendar.png"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel danh-gia-san__panel">
+                    <div class="panel-heading danh-gia-san__panel--panel-heading-4">
+                        <a class="toggle-panel danh-gia-san__panel--toggle-panel" data-toggle="collapse" href="#collapse2">
+                            <span><i class="fa fa-plus-square-o" style="font-size: 18px;"></i></span>&ensp;Đánh giá sân
+                        </a>
+                    </div>
+                    <div class="panel-body danh-gia-san__panel--panel-body-1 panel-collapse collapse" id="collapse2">
+                        <ul class="danh-gia-san__panel--list">
+                            <li class="danh-gia-san__panel--list-li">
+                                <a href="#" class="danh-gia-san__panel--list--option"><img src="images/checked-icon.png" class="danh-gia-san__panel--icon">Tất cả</a>
+                            </li>
+                            <li class="danh-gia-san__panel--list-li">
+                                <a href="#" class="danh-gia-san__panel--list--option"><img src="images/tired-icon.png" class="danh-gia-san__panel--icon">Bực bội</a>
+                            </li>
+                            <li class="danh-gia-san__panel--list-li">
+                                <a href="#" class="danh-gia-san__panel--list--option"><img src="images/sad-icon.png" class="danh-gia-san__panel--icon">Không như ý</a>
+                            </li>
+                            <li class="danh-gia-san__panel--list-li">
+                                <a href="#" class="danh-gia-san__panel--list--option"><img src="images/scared-icon.png" class="danh-gia-san__panel--icon">Bình thường</a>
+                            </li>
+                            <li class="danh-gia-san__panel--list-li">
+                                <a href="#" class="danh-gia-san__panel--list--option"><img src="images/smile-icon.png" class="danh-gia-san__panel--icon">Thích</a>
+                            </li>
+                            <li class="danh-gia-san__panel--list-li">
+                                <a href="#" class="danh-gia-san__panel--list--option"><img src="images/smiling-icon.png" class="danh-gia-san__panel--icon">Rất thích</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-lg-10 ff danh-gia-san__comment">
+        <p class="danh-gia-san__comment--title">Đánh giá sân <span class="fs-12">| Tổng cộng có 3000 người đánh giá sân</span></p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<pre>
+JavaScript Classes
+Lớp trong js ( class )
+Khởi tạo đối tượng từ class
+vs class Oto chúng ta đối tượng cụ thể xe ford 2345 khởi tạo từ class Oto
+constructor ( hàm khởi tạo hay phương thức khởi tạo ) được chạy khi mà chúng ta khởi tạo đối tượng từ class
+từ khóa this bên trong class đại điện cho chính bản thân class đó
+</pre>
+<script>
+    class oto {
+        constructor(name,color,price,model) {
+            //tạo ra các thuộc tính
+            this.name_pro = name;
+            this.color_pro = color;
+            this.price_pro = price;
+            this.model_pro = model;
+        }
+        //phương thức mới
+        showThongTin(){
+            document.write("<br>" + this.name_pro);
+            document.write("<br>" + this.color_pro);
+            document.write("<br>" + this.price_pro);
+            document.write("<br>" + this.model_pro);
+        }
+    }
+    //khởi tjao đối tượng từ class ôt dùng từ khóa new class()
+    var fadil123 = new oto("fadil","đen","50000000","2020");
+    console.log(fadil123);
+    var focus123 = new oto("focus","vàng","600000000000","2019");
+    console.log(focus123);
+    focus123.showThongTin();
+</script>
+</body>
+</html>

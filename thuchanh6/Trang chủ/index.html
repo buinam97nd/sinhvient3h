@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Bò sữa by BOO</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="index.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&amp;subset=vietnamese" rel="stylesheet">
+    <link href="https://unpkg.com/ionicons@4.4.8/dist/css/ionicons.min.css" rel="stylesheet">
+    <script src="index.js"></script>
+</head>
+<body>
+    <!--Logo-->
+    <div class="index__header">
+        <a href="#"><img src="images/logo.png" class="index__header--logo"></a>
+    </div>
+
+    <!--Menu-->
+    <div class="navbar navbar-default index__menu ff">
+        <ul class="nav navbar-nav index__menu--list">
+            <li><a href="#" class="index__menu--list-item">HÀNG MỚI</a></li>
+            <li>
+                <a href="#" class="index__menu--list-item dropdown-toggle" id="dropdown-1" data-toggle="dropdown">NỮ</a>
+                <ul class="dropdown-menu" id="dropdown-menu-1">
+                    <li class="dropdown-submenu">
+                        <a href="#" class="dropdown-item index__menu--dropdown-item dropdown-toggle" data-toggle="dropdown">Áo</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#" class="dropdown-item index__menu--dropdown-item">Áo sát nách</a></li>
+                            <li><a href="#" class="dropdown-item index__menu--dropdown-item">Áo thun</a></li>
+                            <li><a href="#" class="dropdown-item index__menu--dropdown-item">Áo dài tay - Hoodies</a></li>
+                            <li><a href="#" class="dropdown-item index__menu--dropdown-item">Sơ mi</a></li>
+                            <li><a href="#" class="dropdown-item index__menu--dropdown-item">Áo len</a></li>
+                            <li><a href="#" class="dropdown-item index__menu--dropdown-item">Áo khoác</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown-submenu">
+                        <a href="#" class="dropdown-item index__menu--dropdown-item dropdown-toggle" data-toggle="dropdown">Quần</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#" class="dropdown-item index__menu--dropdown-item">Quần váy</a></li>
+                            <li><a href="#" class="dropdown-item index__menu--dropdown-item">Quần shorts</a></li>
+                            <li><a href="#" class="dropdown-item index__menu--dropdown-item">Quần dài</a></li>
+                            <li><a href="#" class="dropdown-item index__menu--dropdown-item">Quần Jogger</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown-submenu">
+                        <a href="#" class="dropdown-item index__menu--dropdown-item dropdown-toggle" data-toggle="dropdown">Váy</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#" class="dropdown-item index__menu--dropdown-item">Váy/Đầm</a></li>
+                            <li><a href="#" class="dropdown-item index__menu--dropdown-item">Chân váy</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#" class="dropdown-item index__menu--dropdown-item">Denim</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#" class="index__menu--list-item dropdown-toggle" id="dropdown-2" data-toggle="dropdown">NAM</a>
+                <ul class="dropdown-menu" id="dropdown-menu-2">
+                    <li class="dropdown-submenu">
+                        <a href="#" class="dropdown-item index__menu--dropdown-item dropdown-toggle" data-toggle="dropdown">Áo</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#" class="dropdown-item index__menu--dropdown-item">Áo sát nách</a></li>
+                            <li><a href="#" class="dropdown-item index__menu--dropdown-item">Áo thun</a></li>
+                            <li><a href="#" class="dropdown-item index__menu--dropdown-item">Áo dài tay - Hoodies</a></li>
+                            <li><a href="#" class="dropdown-item index__menu--dropdown-item">Áo sơ mi</a></li>
+                            <li><a href="#" class="dropdown-item index__menu--dropdown-item">Áo len</a></li>
+                            <li><a href="#" class="dropdown-item index__menu--dropdown-item">Áo khoác</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown-submenu">
+                        <a href="#" class="dropdown-item index__menu--dropdown-item dropdown-toggle" data-toggle="dropdown">Quần</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#" class="dropdown-item index__menu--dropdown-item">Quần shorts</a></li>
+                            <li><a href="#" class="dropdown-item index__menu--dropdown-item">Quần dài</a></li>
+                            <li><a href="#" class="dropdown-item index__menu--dropdown-item">Quần Jogger</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#" class="dropdown-item index__menu--dropdown-item">Denim</a></li>
+                </ul>
+            </li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right" style="margin: 0 !important">
+            <li><a href="#" class="index__menu--list-item">TRA CỨU ĐƠN HÀNG</a></li>
+            <li><a href="#" class="index__menu--list-item">GIỎ HÀNG</a></li>
+        </ul>
+    </div>
+    <!--Slide ảnh-->
+    <div id="myCarousel" class="carousel slide index__slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner index__slide">
+            <div class="item active">
+                <img src="images/slide1.png">
+            </div>
+            <div class="item">
+                <img src="images/slide2.png">
+            </div>
+            <div class="item">
+                <img src="images/slide3.png">
+            </div>
+            <div class="item">
+                <img src="images/slide4.png">
+            </div>
+        </div>
+    </div>
+    <!--Danh sách hàng mới-->
+    <div class="container index__main-product ff">
+        <hr>
+        <p class="index__main-product--title">HÀNG MỚI</p>
+        <hr>
+        <div class="row">
+            <div class="col-lg-3 col-md-4 col-sm-6 index__main-product--item">
+                <div class="card">
+                    <a href="#"><img src="images/1.png" style="width: 255px"></a>
+                    <p class="mb-0 mt-10"><a href="#" class="index__main-product--name">ÁO THUN NGẮN TAY NAM</a></p>
+                    <p class="index__main-product--price">339,150 VNĐ <span class="index__main-product--price-sale">310,000 VNĐ</span></p>
+                    <span><a href="#"><i class="icon ion-md-cart index__main-product--cart-icon"></i></a></span>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 index__main-product--item">
+                <div class="card">
+                    <a href="#"><img src="images/2.png" style="width: 255px"></a>
+                    <p class="mb-0 mt-10"><a href="#" class="index__main-product--name">ÁO NỈ DÀI TAY NAM</a></p>
+                    <p class="index__main-product--price">549,000 VNĐ</p>
+                    <span><a href="#"><i class="icon ion-md-cart index__main-product--cart-icon"></i></a></span>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 index__main-product--item">
+                <div class="card">
+                    <a href="#"><img src="images/3.png" style="width: 255px"></a>
+                    <p class="mb-0 mt-10"><a href="#" class="index__main-product--name">QUẦN SHORT KAKI NỮ DÁNG A-LINE</a></p>
+                    <p class="index__main-product--price">499,000 VNĐ</p>
+                    <span><a href="#"><i class="icon ion-md-cart index__main-product--cart-icon"></i></a></span>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 index__main-product--item">
+                <div class="card">
+                    <a href="#"><img src="images/4.png" style="width: 255px"></a>
+                    <p class="mb-0 mt-10"><a href="#" class="index__main-product--name">ÁO PHAO DÀI TAY DÁNG NGẮN</a></p>
+                    <p class="index__main-product--price">1,499,000 VNĐ <span class="index__main-product--price-sale">1,300,000 VNĐ</span></p>
+                    <span><a href="#"><i class="icon ion-md-cart index__main-product--cart-icon"></i></a></span>
+                </div>
+            </div> 
+            <div class="col-lg-3 col-md-4 col-sm-6 index__main-product--item">
+                <div class="card">
+                    <a href="#"><img src="images/1.png" style="width: 255px"></a>
+                    <p class="mb-0 mt-10"><a href="#" class="index__main-product--name">ÁO NỈ DÀI TAY NAM DÁNG OVERSIZE</a></p>
+                    <p class="index__main-product--price">549,000 VNĐ</p>
+                    <span><a href="#"><i class="icon ion-md-cart index__main-product--cart-icon"></i></a></span>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 index__main-product--item">
+                <div class="card">
+                    <a href="#"><img src="images/2.png" style="width: 255px"></a>
+                    <p class="mb-0 mt-10"><a href="#" class="index__main-product--name">ÁO KHOÁC NỈ DÀI TAY NỮ DÁNG LOOSE</a></p>
+                    <p class="index__main-product--price">699,000 VNĐ</p>
+                    <span><a href="#"><i class="icon ion-md-cart index__main-product--cart-icon"></i></a></span>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 index__main-product--item">
+                <div class="card">
+                    <a href="#"><img src="images/3.png" style="width: 255px"></a>
+                    <p class="mb-0 mt-10"><a href="#" class="index__main-product--name">ÁO KHOÁC NỈ DÀI NỮ DÁNG LOOSE</a></p>
+                    <p class="index__main-product--price">699,000 VNĐ</p>
+                    <div><a href="#"><i class="icon ion-md-cart index__main-product--cart-icon"></i></a></div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 index__main-product--item">
+                <div class="card">
+                    <a href="#"><img src="images/4.png" style="width: 255px"></a>
+                    <p class="mb-0 mt-10"><a href="#" class="index__main-product--name">ÁO NỈ DÀI TAY NAM DÁNG OVERSIZE</a></p>
+                    <p class="index__main-product--price">549,000 VNĐ <span class="index__main-product--price-sale">199.000 VNĐ</span></p>
+                    <div><a href="#"><i class="icon ion-md-cart index__main-product--cart-icon"></i></a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Footer-->
+    <div class="container index__footer ff">
+        <div class="col-lg-3 col-md-3 col-sm-6 col-sx-12">
+            <p class="mt-20 index__footer--title">TÀI KHOẢN</p>
+            <hr>
+            <ul class="index__footer--ul">
+                <li><a href="#" class="index__footer--li">Giỏ hàng</a></li>
+                <li><a href="#" class="index__footer--li">Sản phẩm yêu thích</a></li>
+                <li><a href="#" class="index__footer--li">Lịch sử xem hàng</a></li>
+            </ul>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-6 col-sx-12">
+            <p class="mt-20 index__footer--title">DANH MỤC SẢN PHẨM</p>
+            <hr>
+            <ul class="index__footer--ul">
+                <li><a href="#" class="index__footer--li">NỮ</a></li>
+                <li><a href="#" class="index__footer--li">NAM</a></li>
+            </ul>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-6 col-sx-12">
+            <p class="mt-20 index__footer--title">LIÊN HỆ</p>
+            <hr>
+            <ul class="index__footer--ul">
+                <li><a href="#" class="index__footer--li">Địa chỉ cửa hàng</a></li>
+                <li><a href="#" class="index__footer--li">Về chúng tôi</a></li>
+                <li><a href="#" class="index__footer--li">Hướng dẫn mua hàng online</a></li>
+            </ul>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-6 col-sx-12">
+            <p class="mt-20 index__footer--title">CHÍNH SÁCH VÀ QUY ĐỊNH</p>
+            <hr>
+            <ul class="index__footer--ul">
+                <li><a href="#" class="index__footer--li">Quy định và hình thứ thanh toán</a></li>
+                <li><a href="#" class="index__footer--li">Chính sách vận chuyển / giao nhận</a></li>
+                <li><a href="#" class="index__footer--li">Chính sách bảo hành / bảo trì</a></li>
+                <li><a href="#" class="index__footer--li">Chính sách đổi / trả và hoàn tiền</a></li>
+                <li><a href="#" class="index__footer--li">Chính sách bảo mật và chia sẻ thông tin</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

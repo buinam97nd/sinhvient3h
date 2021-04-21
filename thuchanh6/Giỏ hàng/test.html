@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <style type="text/css">
+        #cartContent {
+            border: 1px solid #ccc;
+            background: #fafafa;
+        }
+
+        table {
+            display: table;
+            border-collapse: separate;
+            border-spacing: 2px;
+            border-color: grey;
+        }
+       	tbody {
+            display: table-row-group;
+            vertical-align: middle;
+            border-color: inherit;
+        }
+        .cartNavigator {
+            margin: 15px 0 0;
+        }
+        .cartNavigator .btnCheckOut {
+            float: right;
+            background: #e15452;
+            color: white;
+        }
+        .buyMore {
+            background: #ddd;
+            color: #666;
+        }
+        .btnCheckOut, .buyMore {
+            padding: 6px 20px;
+            display: inline-block;
+            color: #666;
+            font-size: 15px;
+            border-radius: 2px;
+        }
+        .clearfix {
+            clear: both;
+        }
+        
+        .btnCheckOut:hover{
+        	background-color: #888;
+        }
+        .buyMore:hover {
+            text-decoration: underline;
+        }
+        .singleCart{
+        	padding: 15px 0;
+    		margin: 45px 0 0;
+        }
+    </style>
+</head>
+<body>
+	<div class="singleCart">
+		<div class="container">
+			<table id="cartContent">
+    			<tbody>
+					<tr>
+    					<td width="500">Sản phẩm</td>
+    					<td width="200">Đơn giá</td>
+    					<td width="200">Số lượng</td>
+    					<td width="200">Thành tiền</td>
+    					<td width="200">&nbsp;</td>
+					</tr>
+					<tr class="cartItem .even">
+    					<td colspan="5" style="padding: 20px 0; color: brown;">Giỏ hàng của bạn hiện chưa có sản phẩm nào</td>
+					</tr>
+					<tr class="title" style="text-align: left">
+    					<td class="last" width="500">&nbsp;</td>
+    					<td width="400" colspan="2">Khối lượng: <b style="color: #ed1c24;font-size: 16px">0 g</b></td>
+    					<td width="400" colspan="2">Tổng cộng: <b style="color: #ed1c24;font-size: 16px">0 đ</b></td>
+					</tr>
+				</tbody>
+			</table>
+			<div class="cartNavigator">
+    			<a href="/cart/checkout" class="btnCheckOut btnRed">Tiến hành thanh toán</a> 
+    			<a href="https://l.facebook.com/" class="buyMore btnGreen">Mua thêm sản phẩm khác</a>
+    			<span class="clearfix"></span>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

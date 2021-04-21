@@ -1,9 +1,127 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="27a371b8-717b-4508-b4e5-7eace5be6ec2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ngay7/002/index1.html" afterDir="false" />
+    <list default="true" id="376c7d8e-1c39-4b01-91df-204d7b3f4151" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/javascript/buoi1/index2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngay10/001/index1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngay10/001/index10.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngay10/001/index11.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngay10/001/index12.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngay10/001/index13.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngay10/001/index2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngay10/001/index3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngay10/001/index4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngay10/001/index5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngay10/001/index6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngay10/001/index7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngay10/001/index8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngay10/001/index9.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngay10/002/index1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngay11/001/index1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngay11/001/index2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngay11/001/index3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngay11/001/index4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngay11/002/index1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngay11/002/index2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngay11/002/index3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngay11/003/index1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngay11/003/index2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngay11/003/index3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngay11/003/index4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngay11/004/index1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngay11/004/index2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngay11/004/index3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngay11/004/index4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngay11/004/index5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngay11/004/index6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngay11/004/index7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngay11/004/index8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngay11/005/index1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngay11/005/index2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngay12/001/index1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngay12/001/index10.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngay12/001/index11.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngay12/001/index2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngay12/001/index3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngay12/001/index4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngay12/001/index5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngay12/001/index6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngay12/001/index7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngay12/001/index8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngay12/001/index9.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngay13/001/index1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngay13/001/index2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngay13/001/index3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngay13/001/index4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngay13/001/index5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngay13/001/index6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngay13/001/index7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngay13/001/index8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngay15/001/index1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngay15/001/index2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngay15/001/index3.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngay15/001/index4.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngay15/test/001/KDD_3294.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngay15/test/001/index1.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngay15/test/001/index3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngay15/test/002/html5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngay15/test/002/input.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngay8/001/index1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngay8/001/index1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngay8/001/index2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngay8/001/index3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngay8/001/index4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngay8/JS002/index1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngay8/JS002/index2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngay8/JS002/index3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngay8/JS002/index4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngay8/JS002/index5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngay8/JS002/index6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngay8/JS002/index7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngay8/JS002/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngay9/001/index1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngay9/001/index10.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngay9/001/index11.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngay9/001/index12.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngay9/001/index13.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngay9/001/index14.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngay9/001/index2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngay9/001/index3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngay9/001/index4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngay9/001/index5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngay9/001/index6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngay9/001/index7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngay9/001/index8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngay9/001/index9.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thuc hanh/KDD_3312.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thuc hanh/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thuc hanh/style1.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thuc hanh/style2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thuchanh2/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thuchanh2/images/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thuchanh2/images/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thuchanh2/images/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thuchanh2/images/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thuchanh2/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thuchanh2/images/slide1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thuchanh2/images/slide2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thuchanh2/images/slide3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thuchanh2/images/slide4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thuchanh2/index1.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ngay2/002/index1.html" beforeDir="false" afterPath="$PROJECT_DIR$/ngay2/002/index1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ngay2/002/style1.css" beforeDir="false" afterPath="$PROJECT_DIR$/ngay2/002/style1.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ngay2/008/html1.html" beforeDir="false" afterPath="$PROJECT_DIR$/ngay2/008/html1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ngay3/004/index1.html" beforeDir="false" afterPath="$PROJECT_DIR$/ngay3/004/index1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ngay3/004/index6.html" beforeDir="false" afterPath="$PROJECT_DIR$/ngay3/004/index6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ngay3/005/index3.html" beforeDir="false" afterPath="$PROJECT_DIR$/ngay3/005/index3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ngay3/005/index8.html" beforeDir="false" afterPath="$PROJECT_DIR$/ngay3/005/index8.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ngay4/001/index2.html" beforeDir="false" afterPath="$PROJECT_DIR$/ngay4/001/index2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ngay4/001/index3.html" beforeDir="false" afterPath="$PROJECT_DIR$/ngay4/001/index3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ngay4/001/index4.html" beforeDir="false" afterPath="$PROJECT_DIR$/ngay4/001/index4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ngay5/001/index3.html" beforeDir="false" afterPath="$PROJECT_DIR$/ngay5/001/index3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ngay5/001/index5.html" beforeDir="false" afterPath="$PROJECT_DIR$/ngay5/001/index5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ngay5/001/index6.html" beforeDir="false" afterPath="$PROJECT_DIR$/ngay5/001/index6.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,14 +134,16 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1mhF0sonTSOInqFrJ3Heu23AlnR" />
+  <component name="ProjectId" id="1pybEsRV34zC7fMzvZkaJ3BOwL9" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -34,24 +154,54 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ngay7/001" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../xampp/htdocs/t3h" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\github\sinhvient3h\ngay7\001" />
+      <recent name="D:\github\sinhvient3h\thuchanh2\images" />
+      <recent name="D:\github\sinhvient3h\thuc hanh" />
+      <recent name="D:\github\sinhvient3h\ngay15\test\002" />
+      <recent name="D:\github\sinhvient3h\ngay15\test" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\github\sinhvient3h\ngay15\test\001" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="27a371b8-717b-4508-b4e5-7eace5be6ec2" name="Default Changelist" comment="" />
-      <created>1609937696530</created>
+      <changelist id="376c7d8e-1c39-4b01-91df-204d7b3f4151" name="Default Changelist" comment="" />
+      <created>1616158169350</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1609937696530</updated>
-      <workItem from="1609937701482" duration="3809000" />
-      <workItem from="1610523281942" duration="1640000" />
+      <updated>1616158169350</updated>
+      <workItem from="1616158172465" duration="1479000" />
+      <workItem from="1616403752290" duration="4401000" />
+      <workItem from="1616484035595" duration="645000" />
+      <workItem from="1616525988746" duration="793000" />
+      <workItem from="1616658884994" duration="11471000" />
+      <workItem from="1616685695550" duration="1231000" />
+      <workItem from="1616756545213" duration="30000" />
+      <workItem from="1616828669787" duration="662000" />
+      <workItem from="1616829387626" duration="1204000" />
+      <workItem from="1616892926937" duration="58000" />
+      <workItem from="1617163359526" duration="781000" />
+      <workItem from="1617164156691" duration="4510000" />
+      <workItem from="1617196302986" duration="8149000" />
+      <workItem from="1617210525680" duration="3506000" />
+      <workItem from="1617245678727" duration="9799000" />
+      <workItem from="1617289588258" duration="1256000" />
+      <workItem from="1617353596138" duration="1542000" />
+      <workItem from="1617364547424" duration="644000" />
+      <workItem from="1617365219018" duration="41000" />
+      <workItem from="1617383266075" duration="1861000" />
+      <workItem from="1617429632588" duration="5979000" />
+      <workItem from="1617512081095" duration="5890000" />
+      <workItem from="1617644262143" duration="5937000" />
+      <workItem from="1617651233063" duration="647000" />
+      <workItem from="1617968960428" duration="189000" />
     </task>
     <servers />
   </component>

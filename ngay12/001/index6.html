@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<pre>
+
+phương thức static ( tĩnh ) trong class js
+khi chúng ta muốn gọi phương thức trong class
+1 - khởi tạo đối tượng từ class
+2 - tên đối tượng . tên phương thức bên trong class
+class Oto {
+  showInfo() {}
+}
+
+var oto1 = new Oto();
+oto1.showInfo();
+
+- từ khóa static tạo ra các phương thức tĩnh
+- các phương thức tĩnh có thể được gọi mà không cần phải đối tượng từ class thông qua từ khóa new
+
+</pre>
+<script>
+    class car {
+        constructor(name) {
+            this.name = name;
+        }
+        static hello(){
+            document.write("hello");
+        }
+    }
+    car.hello();
+</script>
+</body>
+</html>

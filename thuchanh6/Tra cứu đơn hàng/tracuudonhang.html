@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Tra cứu đơn hàng</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="tracuudonhang.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&amp;subset=vietnamese" rel="stylesheet">
+    <script src="tracuudonhang.js"></script>
+</head>
+<body>
+    <!--Logo-->
+    <div class="index__header">
+        <a href="#"><img src="images/logo.png" class="index__header--logo"></a>
+    </div>
+
+    <!--Menu-->
+    <div class="navbar navbar-default index__menu ff">
+        <ul class="nav navbar-nav index__menu--list">
+            <li><a href="#" class="index__menu--list-item">HÀNG MỚI</a></li>
+            <li>
+                <a href="#" class="index__menu--list-item dropdown-toggle" id="dropdown-1" data-toggle="dropdown">NỮ</a>
+                <ul class="dropdown-menu" id="dropdown-menu-1">
+                    <li class="dropdown-submenu">
+                        <a href="#" class="dropdown-item index__menu--dropdown-item dropdown-toggle" data-toggle="dropdown">Áo</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#" class="dropdown-item index__menu--dropdown-item">Áo sát nách</a></li>
+                            <li><a href="#" class="dropdown-item index__menu--dropdown-item">Áo thun</a></li>
+                            <li><a href="#" class="dropdown-item index__menu--dropdown-item">Áo dài tay - Hoodies</a></li>
+                            <li><a href="#" class="dropdown-item index__menu--dropdown-item">Sơ mi</a></li>
+                            <li><a href="#" class="dropdown-item index__menu--dropdown-item">Áo len</a></li>
+                            <li><a href="#" class="dropdown-item index__menu--dropdown-item">Áo khoác</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown-submenu">
+                        <a href="#" class="dropdown-item index__menu--dropdown-item dropdown-toggle" data-toggle="dropdown">Quần</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#" class="dropdown-item index__menu--dropdown-item">Quần váy</a></li>
+                            <li><a href="#" class="dropdown-item index__menu--dropdown-item">Quần shorts</a></li>
+                            <li><a href="#" class="dropdown-item index__menu--dropdown-item">Quần dài</a></li>
+                            <li><a href="#" class="dropdown-item index__menu--dropdown-item">Quần Jogger</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown-submenu">
+                        <a href="#" class="dropdown-item index__menu--dropdown-item dropdown-toggle" data-toggle="dropdown">Váy</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#" class="dropdown-item index__menu--dropdown-item">Váy/Đầm</a></li>
+                            <li><a href="#" class="dropdown-item index__menu--dropdown-item">Chân váy</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#" class="dropdown-item index__menu--dropdown-item">Denim</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#" class="index__menu--list-item dropdown-toggle" id="dropdown-2" data-toggle="dropdown">NAM</a>
+                <ul class="dropdown-menu" id="dropdown-menu-2">
+                    <li class="dropdown-submenu">
+                        <a href="#" class="dropdown-item index__menu--dropdown-item dropdown-toggle" data-toggle="dropdown">Áo</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#" class="dropdown-item index__menu--dropdown-item">Áo sát nách</a></li>
+                            <li><a href="#" class="dropdown-item index__menu--dropdown-item">Áo thun</a></li>
+                            <li><a href="#" class="dropdown-item index__menu--dropdown-item">Áo dài tay - Hoodies</a></li>
+                            <li><a href="#" class="dropdown-item index__menu--dropdown-item">Áo sơ mi</a></li>
+                            <li><a href="#" class="dropdown-item index__menu--dropdown-item">Áo len</a></li>
+                            <li><a href="#" class="dropdown-item index__menu--dropdown-item">Áo khoác</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown-submenu">
+                        <a href="#" class="dropdown-item index__menu--dropdown-item dropdown-toggle" data-toggle="dropdown">Quần</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#" class="dropdown-item index__menu--dropdown-item">Quần shorts</a></li>
+                            <li><a href="#" class="dropdown-item index__menu--dropdown-item">Quần dài</a></li>
+                            <li><a href="#" class="dropdown-item index__menu--dropdown-item">Quần Jogger</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#" class="dropdown-item index__menu--dropdown-item">Denim</a></li>
+                </ul>
+            </li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right" style="margin: 0 !important">
+            <li><a href="#" class="index__menu--list-item">TRA CỨU ĐƠN HÀNG</a></li>
+            <li><a href="#" class="index__menu--list-item">GIỎ HÀNG</a></li>
+        </ul>
+    </div>
+	
+	<!--Bảng tra cứu-->
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="find-order ff">
+					<p class="find-order__title">TRA CỨU ĐƠN HÀNG</p>
+					<p class="find-order__note"><i>Hãy nhập <b>Số điện thoại</b> hoặc <b>Mã đơn hàng</b> để tra cứu tình trạng đơn hàng của bạn nhé ! ^ ^</i></p>
+					<div class="find-order__form">
+						<input type="text" placeholder="Nhập số điện thoại hoặc mã đơn hàng" class="find-order__form--input">
+						<button class="find-order__form--check-btn">Kiểm tra</button>
+					</div>
+					
+					<div class="find-order__table">
+						<div class="table-responsive">
+							<table class="table table-bordered">
+								<thead>
+									<tr>
+										<td>Mã đơn hàng</td>
+										<td>Tên khách hàng</td>
+										<td>Tổng tiền thanh toán</td>
+										<td>Trạng thái đơn hàng</td>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td colspan="5" class="find-order__table--notfound">Không tìm thấy đơn hàng theo yêu cầu</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

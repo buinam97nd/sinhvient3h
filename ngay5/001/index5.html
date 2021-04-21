@@ -14,10 +14,27 @@
             height: 100px;
             width: 200px;
             background-color: greenyellow;
-            margin: 50px 100px;
+            /*!*margin: 50px 100px;*!*/
+            /*!*position: absolute;*!*/
             position: relative;
-            top: 20px;
-            left: 100px;
+            top: 0px;
+            /*left: 100px;*/
+        }
+        /*.abc{*/
+        /*    font-size: 50px;*/
+        /*    position: absolute;*/
+        /*    !*position: relative;*!*/
+        /*    top: 20px;*/
+        /*    left: -20px;*/
+        /*}*/
+
+        .divb{
+            height: 100px;
+            width: 200px;
+            background-color: yellow;
+            margin-top:20px;
+            /*position: relative;*/
+            /*top: 20px;*/
         }
     </style>
 </head>
@@ -25,6 +42,10 @@
 <div class="divA">
     div A position: absolute;
 </div>
+<div class="divb">
+    div b position: absolute;
+</div>
+<!--<p class="abc">this a that</p>-->
 <pre>
     relative lấy từ vị trí ban đầu của nó .absolute lấy ví trí từ trình duyệt . để phân biệt thì thêm margin vào , relative sẽ lấy điểm từ margin , absolute lấy từ đầu trình duyệt
 </pre>

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Thanh toán</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="thanh-toan.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&amp;subset=vietnamese" rel="stylesheet">
+    <script src="thanh-toan.js"></script>
+</head>
+<body>
+    <div class="container ff checkout">
+		<hr>
+        <p class="checkout__title fw-700">Thanh toán trực tuyến an toàn</p>
+        <hr>
+        <div class="row">
+		
+			<!--Thông tin khách hàng-->
+            <div class="col-md-3 checkout__info">
+                <p class="fs-18 fw-700">1 THÔNG TIN KHÁCH HÀNG</p>
+                <label>Họ và tên: *</label>
+                <input type="text" name="fullname" class="checkout__input--name">
+                <label>Điện thoại: *</label>
+                <input type="text" name="phonenumber" class="checkout__input--telephone">
+                <label>Email: *</label>
+                <input type="text" name="email" class="checkout_input--email">
+                <label>Tỉnh/Thành phố: *</label>
+                <select class="checkout__input--city">
+                    <option>Chọn Tỉnh/Thành phố</option>
+                    <option>Hà Nội</option>
+                    <option>Hồ Chí Minh</option>
+                    <option>An Giang</option>
+                    <option>Bà Rịa</option>
+                    <option>Vũng Tàu</option>
+                </select>
+                <label>Quận/ Huyện: *</label>
+                <select class="checkout__input--district">
+                    <option>Chọn Quận/ Huyện</option>
+                </select>
+                <label>Địa chỉ: *</label>
+                <textarea name="address" class="checkout__input--address"></textarea>
+            </div>
+			
+			<!--Hình thức thanh toán-->
+            <div class="col-md-3 checkout__payment-method">
+                <p class="fs-18 fw-700">2 HÌNH THỨC THANH TOÁN</p>
+                <p><input type="radio" name="payment-method" value="Thanh toán tại nhà" id="payathome"> Thanh toán tại nhà<p>
+                <p><input type="radio" name="payment-method" value="Thanh toán bằng thẻ ngân hàng nội địa" id="paybybank"> Thanh toán bằng thẻ ngân hàng nội địa<p></a>
+					<div class="checkout__banklist">
+						<span><img src="https://www.baokim.vn/application/uploads/banks/vietcombank.png" title="Vietcombank - Ngân hàng TMCP Ngoại thương"></span>
+						<span><img src="https://www.baokim.vn/application/uploads/banks/techcombank.png" title="Techcombank - Ngân hàng Kỹ thương Việt Nam"></span>
+						<span><img src="https://www.baokim.vn/application/uploads/banks/vietinbank.png" title="Vietinbank - Ngân hàng Công thương Việt Nam"></span>
+						<span><img src="https://www.baokim.vn/application/uploads/banks/bidvbank.png" title="BIDV - Ngân hàng Đầu tư và Phát triển Việt Nam"></span>
+						<span><img src="https://www.baokim.vn/application/uploads/banks/sacombank.png" title="Sacombank - Ngân hàng Sài Gòn Thương Tín"></span>
+						<span><img src="https://www.baokim.vn/application/uploads/banks/mbbank.png" title="Ngân hàng Quân Đội (MB)"></span>
+						<span><img src="https://www.baokim.vn/application/uploads/banks/agribank.png" title="Agribank - Ngân hàng Nông nghiệp và Phát triển Nông thôn Việt Nam"></span>
+					</div>
+            </div>
+			
+			<!--Xác nhận đơn hàng-->
+            <div class="col-md-3 checkout__confirm">
+                <p class="fs-18 fw-700">3 XÁC NHẬN ĐƠN HÀNG</p>
+                <img src="images/aoxanh.png" class="checkout__confirm--img">
+                <p class="checkout__confirm--img--name fw-700">YẾM DÁNG RỘNG JEANS TÚI TO - S</p>
+                <p class="checkout__confirm--price fw-700 fs-16">699,000 VNĐ</p>
+                <p class="fs-16">Số lượng: 1</p>
+            </div>
+			
+			<!--Xác nhận thanh toán-->
+            <div class="col-md-3 checkout__price">
+				<p class="fs-18 fw-700">4 XÁC NHẬN THANH TOÁN</p>
+                <p class="fs-16">Tiền hàng <span class="checkout__price--price"><b>699,000 đ</span></b></p>
+                <p class="fs-16">Phí vận chuyển <span class="checkout__price--price"><b>0 đ</b></span></p>
+				<i class="checkout__price--note">(Ngoại thành/Ngoại tỉnh) sẽ thông báo ngay sau khi đặt hàng thành công</i>
+                <hr>
+                <p class="fs-16">Tổng cộng <span class="checkout__price--total-price"><b>699,000 đ</b></span></p>              
+                <br>
+                <label class="fs-16">Sử dụng mã giảm giá nếu có</label>
+                <input type="text" name="discount" placeholder="Mã giảm giá" class="checkout__price--discount">
+                <button class="checkout__price--btn fs-16">Sử dụng</button>
+                <br>
+                <label class="fs-16">Ghi chú</label>
+                <textarea placeholder="Ghi chú" class="checkout__price--input-note"></textarea>
+				<button class="checkout__price--confirm-btn fs-16">Xác nhận đơn hàng</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

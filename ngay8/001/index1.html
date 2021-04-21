@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /*áp dụng cho mọi độ rộng*/
+        body{
+            background-color: green;
+        }
+        @media screen and (min-width: 700px){
+            body{
+                background-color: orange;
+            }
+        }
+        @media screen and (min-width: 1000px){ /* mở ngoặc */
+            body{
+                background-color: blueviolet;
+            }
+        }/* kết thúc ngoặc nhọn media screen */
+    </style>
+</head>
+<body>
+    <pre>
+        B1: bổ sung thẻ meta name=viewport
+        b2: media screen
+         @media screen and (min-width: Xpx){
+         áp dụng các quy tắc css cho màn hình từ Xpx trở xuông 0 px
+         hay nói cách khác áp dụng từ 0 đến Xpx
+        }
+    </pre>
+</body>
+</html>

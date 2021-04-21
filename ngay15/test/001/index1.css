@@ -1,0 +1,8 @@
+.the1 ul li{
+    list-style: none;
+}
+.bang{
+    border: 1px solid red;
+    width: 200px;
+    height: 200px;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function myDisplayer(some) {
+        console.log(some);
+    }
+
+    function myFirst() {
+
+
+        setTimeout(function() {
+            myDisplayer("Hello");
+        }, 3000);
+
+
+    }
+
+    function mySecond() {
+        myDisplayer("Goodbye");
+    }
+    // gọi lần 1
+    myFirst();
+    // gọi lần 2
+    mySecond();
+</script>
+</body>
+</html>
